@@ -111,55 +111,59 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
     border: 1px solid;
     border-radius: 6px;
     text-decoration: none;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Rome" tags="" position="1600,900" size="100,100">&lt;img src=&quot;Kumengo.png&quot;&gt;
+}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-tag name="zone" color="green"></tw-tag><tw-tag name="startZone" color="blue"></tw-tag><tw-tag name="menu" color="green"></tw-tag><tw-tag name="pub" color="purple"></tw-tag><tw-tag name="home" color="yellow"></tw-tag><tw-tag name="store" color="blue"></tw-tag><tw-tag name="alchemist" color="blue"></tw-tag><tw-tag name="square" color="purple"></tw-tag><tw-passagedata pid="1" name="Rome" tags="menu" position="1600,900" size="100,100">&lt;img src=&quot;assets\Kumengo.png&quot;&gt;
 
 [[Start]]
 
-</tw-passagedata><tw-passagedata pid="2" name="Border" tags="" position="1600,500" size="100,100">[[City]] [[Village]] [[Wilderness]]
+</tw-passagedata><tw-passagedata pid="2" name="Border" tags="zone" position="1600,500" size="100,100">[[City]] [[Village]] [[Wilderness]]
 
-&lt;img src=&quot;border.png&quot;&gt;
+&lt;img src=&quot;assets\border.png&quot;&gt;
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="3" name="City" tags="" position="1800,500" size="100,100">[[Village]] [[Walk-&gt;Border]] [[Wilderness]]
+[[Rome]]</tw-passagedata><tw-passagedata pid="3" name="City" tags="zone startZone" position="1800,500" size="100,100">[[Village]] [[Walk-&gt;Border]] [[Wilderness]]
 
-&lt;img src=&quot;city.png&quot;&gt;
+&lt;img src=&quot;assets\city.png&quot;&gt;
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="4" name="Wilderness" tags="" position="1600,300" size="100,100">[[City]] [[Walk-&gt;Border]] [[Village]]
+[[Rome]]</tw-passagedata><tw-passagedata pid="4" name="Wilderness" tags="zone startZone" position="1600,300" size="100,100">[[City]] [[Walk-&gt;Border]] [[Village]]
 
-&lt;img src=&quot;wilderness.png&quot;&gt;
+&lt;img src=&quot;assets\wilderness.png&quot;&gt;
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="5" name="Village" tags="" position="1400,500" size="100,100">[[City]] [[Walk-&gt;Border]] [[Wilderness]]
+[[Rome]]</tw-passagedata><tw-passagedata pid="5" name="Village" tags="zone startZone" position="1400,500" size="100,100">[[City]] [[Walk-&gt;Border]] [[Wilderness]]
 
-&lt;img src=&quot;village.png&quot;&gt;
+&lt;img src=&quot;assets\village.png&quot;&gt;
 
 [[Village_Pub]] [[Village_Store]] [[Village_Square]] [[Village_Home]] [[Village_Meadows]]
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="6" name="Start" tags="" position="1600,700" size="100,100">&lt;img src=&quot;start.png&quot;&gt;
+[[Rome]]</tw-passagedata><tw-passagedata pid="6" name="Start" tags="menu" position="1600,700" size="100,100">&lt;img src=&quot;assets\start.png&quot;&gt;
 
 [[City]] [[Village]] [[Wilderness]]
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="7" name="Village_Home" tags="" position="1200,300" size="100,100">[[Village]] [[Village_Square]] [[Village_Store]] [[Village_Alchemist]] [[Village_Meadows]]
+[[Rome]]</tw-passagedata><tw-passagedata pid="7" name="Village_Home" tags="home" position="1200,300" size="100,100">[[Village]] [[Village_Square]] [[Village_Store]] [[Village_Alchemist]] [[Village_Meadows]]
 
-&lt;img src=&quot;home.png&quot;&gt;
+&lt;img src=&quot;assets\home.png&quot;&gt;
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="8" name="Village_Square" tags="" position="1200,500" size="100,100">&lt;img src=&quot;square.png&quot;&gt;
+[[Rome]]</tw-passagedata><tw-passagedata pid="8" name="Village_Square" tags="square" position="1200,500" size="100,100">&lt;img src=&quot;assets\square.png&quot;&gt;
 
 [[Village_Pub]] [[Village_Store]] [[Village_Home]] [[Village]] [[Village_Alchemist]] [[Village_Meadows]]
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="9" name="Village_Pub" tags="" position="1200,700" size="100,100">[[Village]] [[Village_Square]] [[Village_Alchemist]] [[Village_Meadows]]
+[[Rome]]</tw-passagedata><tw-passagedata pid="9" name="Village_Pub" tags="pub" position="1200,700" size="100,100">[[Village]] [[Village_Square]] [[Village_Alchemist]] [[Village_Meadows]]
 
-&lt;img src=&quot;pub.png&quot;&gt;
+&lt;img src=&quot;assets\pub.png&quot;&gt;
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="10" name="Village_Store" tags="" position="1000,300" size="100,100">[[Village]] [[Village_Square]] [[Village_Home]] [[Village_Alchemist]] [[Village_Meadows]]
+[[Rome]]</tw-passagedata><tw-passagedata pid="10" name="Village_Store" tags="store" position="1000,300" size="100,100">[[Village]] [[Village_Square]] [[Village_Home]] [[Village_Alchemist]] [[Village_Meadows]]
 
-&lt;img src=&quot;store.png&quot;&gt;
+&lt;img src=&quot;assets\store.png&quot;&gt;
 
-[[Rome]]</tw-passagedata><tw-passagedata pid="11" name="Passage utan namn" tags="" position="1825,850" size="100,100"></tw-passagedata><tw-passagedata pid="12" name="Village_Alchemist" tags="" position="1000,500" size="100,100">[[Village]] [[Village_Square]] [[Village_Pub]] [[Village_Meadows]]
+[[Rome]]</tw-passagedata><tw-passagedata pid="11" name="Variables" tags="" position="1825,850" size="100,100">$money
 
-&lt;img src=&quot;alchemist.png&quot;&gt;
+$currentOutfit
+
+$bodyShame</tw-passagedata><tw-passagedata pid="12" name="Village_Alchemist" tags="alchemist" position="1000,500" size="100,100">[[Village]] [[Village_Square]] [[Village_Pub]] [[Village_Meadows]]
+
+&lt;img src=&quot;assets\alchemist.png&quot;&gt;
 
 [[Rome]]</tw-passagedata><tw-passagedata pid="13" name="Village_Meadows" tags="" position="1000,700" size="100,100">[[Village_Pub]] [[Village_Store]] [[Village_Home]] [[Village]] [[Village_Alchemist]] [[Village_Square]]
 
-&lt;img src=&quot;meadows.png&quot;&gt;
+&lt;img src=&quot;assets\meadows.png&quot;&gt;
 
 [[Rome]]</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
